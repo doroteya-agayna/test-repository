@@ -30,7 +30,7 @@ namespace ContextApi.Tests
             string instanceName = dataSource.Substring(index);
 
             command = "sqllocaldb " + command + " " + instanceName;
-            ProcessStartInfo info = new ProcessStartInfo("cmd", "/c " + command);
+            ProcessStartInfo info = new ProcessStartInfo("/b cmd", "/c " + command);
             Process process = new Process();
 
             process.StartInfo = info;
