@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SDKSample xmlns="http://www.telerik.com/OpenAccess/SDK">
+  <ShortName>Using the Context API</ShortName>
+  <State></State>
+  <Type>Example</Type>
+  <Complexity>200</Complexity>
+  <Areas>
+    <Area>API</Area>
+  </Areas>
+  <DocumentUrl>http://docs.telerik.com/data-access/feature-reference/api/context-api/feature-ref-api-context-api-overview</DocumentUrl>
+  <DocumentPath></DocumentPath>
+  <Language>VB</Language>
+  <Folder>Content\Samples\API\VisualBasic\ContextApi</Folder>
+  <SampleSolution>ContextApiVB.sln</SampleSolution>
+  <FolderUnitTest>Content\Samples\API\VisualBasic\ContextApi</FolderUnitTest>
+  <UnitTestStartup>ContextApiVB.sln</UnitTestStartup>
+  <UpgradePaths></UpgradePaths>
+  <Doc></Doc>
+  <Keywords>
+    <Keyword>OpenAccess</Keyword>
+	 <Keyword>Context API</Keyword>
+    <Keyword>BestPractices</Keyword>
+  </Keywords> 
+  <Assets>
+    <Asset>
+      <Name>ProjectManagement</Name>
+      <FileName>ProjectManagement.sql</FileName>
+    </Asset>
+  </Assets>
+  <SampleInfo>
+    <ImagePath>../Content/Common</ImagePath>
+    <Overview>
+      <Name>Using the Context API</Name>
+      <Description>
+        This example demonstrates how you can use Telerik Data Access' Context API.
+      </Description>
+    </Overview>
+    <Introduction>
+      <Summary>
+        The sample application demonstrates how to use different methods of Telerik Data Access' Context.
+      </Summary>
+      <Goals>
+        <Goal>
+          Demonstrate how to create, read, update and delete entities.
+        </Goal>
+        <Goal>
+          Demonstrate how to view the different state of the entities: inserted, updated and deleted.
+        </Goal>
+        <Goal>
+          Demonstrate the different events that occur when entities interact with a context: Adding, Added, Changing and so on.
+        </Goal>
+        <Goal>
+          Demonstrate how to use Fetch Strategies.
+        </Goal>
+        <Goal>
+          Demonstrate how to attach and detach entities using the Attach/Detach API.
+        </Goal>
+      </Goals>
+    </Introduction>
+    <Screenshots>
+    </Screenshots>
+    <GettingStarted>
+      <Paragraph>
+        The example consists of two parts - a core project where the Data Access Layer based on Telerik Data Access resides and a test application.
+        The application utilizes the functionality provided by the data layer and asserts the result it provides.
+      </Paragraph>
+      <Paragraph>
+        1. Click Open Solution or Open Test Solution in Telerik Data Access Samples Kit.
+      </Paragraph>
+      <Paragraph>
+        2. If the Database Management Tool dialog is shown, enter your MS SQL Server instance and continue. Telerik Data Access Samples Kit will import the needed database to your server and open the already configured solution in Visual Studio.
+      </Paragraph>
+      <Paragraph>
+        3. On the <bold>Build</bold> menu, click <bold>Rebuild Solution</bold>.
+      </Paragraph>
+      <Paragraph>
+        4. In <bold>Solution Explorer</bold>, right click on the <bold>ContextApi.Tests</bold> project and select <bold>Set as StartUp Project</bold>.
+      </Paragraph>
+      <Paragraph>
+        5. Press <bold>F5</bold> to run the application.
+      </Paragraph>
+    </GettingStarted>
+    <SampleCharacteristics>
+      <Accessibility>false</Accessibility>
+      <ArchitectureDiagram>false</ArchitectureDiagram>
+      <Comments>false</Comments>
+      <Documentation>false</Documentation>
+      <ErrorHandling>true</ErrorHandling>
+      <Localizable>false</Localizable>
+      <Overview>true</Overview>
+      <Supported>true</Supported>
+      <UnitTests>true</UnitTests>
+      <Style>Example</Style>
+    </SampleCharacteristics>
+    <Requirements>
+      <Requirement>
+        <Code>NET35</Code>
+        <Name>.NET Framework 3.5</Name>
+        <Description>This sample requires .NET 3.5 to run.</Description>
+        <URL><![CDATA[http://www.microsoft.com/en-us/download/details.aspx?id=21]]></URL>
+      </Requirement>
+      <Requirement>
+        <Code>VS2010</Code>
+        <Name>Visual Studio 2010</Name>
+        <Description>This sample requires Visual Studio 2010 or greater to run.</Description>
+       <URL><![CDATA[http://www.microsoft.com/visualstudio/en-us/]]></URL>
+      </Requirement>
+      <Requirement>
+        <Code>MSSQL</Code>
+        <Name>Microsoft SQL Server</Name>
+        <Description>This sample requires a SQL Server 2005 or greater instance to run.</Description>
+        <URL><![CDATA[http://www.microsoft.com/sqlserver/en/us/default.aspx]]></URL>
+      </Requirement>
+    </Requirements>
+    <AdditionalResources />
+    <History>
+      <Change>
+        <Date>2013-6-6</Date>
+        <Description>The sample is integrated into Telerik Data Access Samples Kit.</Description>
+      </Change>
+	  <Change>
+        <Date>2013-12-06</Date>
+        <Description>Extended the sample by including Fetch Strategies and Attach/Detach API.</Description>
+      </Change>
+    </History>
+  </SampleInfo>
+</SDKSample>
